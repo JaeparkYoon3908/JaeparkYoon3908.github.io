@@ -41,5 +41,5 @@ println("linkedHashSet = $linkedHashSet")
 hashSet = [banana, orange, apple, grape, melon]
 linkedHashSet = [apple, banana, grape, orange, melon]
 ```
-이렇게 되면 LinkedHasySet은 요소의 순서를 저장하기 때문에 index를 통해서 접근할 수 있을것 같지만, 
+이렇게 되면 LinkedHashSet은 요소의 순서를 저장하기 때문에 index를 통해서 접근할 수 있을것 같지만, 
 Set자체는 index로 객체를 관리하지 않기 때문에 index를 통한 접근이 불가능합니다.
