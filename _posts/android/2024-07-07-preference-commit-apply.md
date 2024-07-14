@@ -43,7 +43,7 @@ public boolean commit() {
 }
 ```
 내부 코드에서는 Preference의 값을 디스크에 write 명령을 내린 후 끝날 때까지 await()를 하여
-write가 끝나면 그 결괏값을을 boolean 값으로 return 하여 정상적으로 값이 반영됐는지 확인할 수 있습니다. 공식 문서에 나온 설명대로
+write가 끝나면 그 결괏값을 boolean 값으로 return 하여 정상적으로 값이 반영됐는지 확인할 수 있습니다. 공식 문서에 나온 설명대로
 write의 결괏값을 리턴 받을 수 있는 장점이 있지만, 메인 스레드에서 Preference를 commit() 했을 때 자칫 ANR이 걸릴 수 있다는 단점이 존재합니다.
 ### apply()
 apply()는 commit()과는 달리 return type이 없으며 commit()과 달리 두 개 이상의 editor가 apply()를 했을 때 비동기 방식으로 일어남으로 원자성을 보장하지 못합니다.
