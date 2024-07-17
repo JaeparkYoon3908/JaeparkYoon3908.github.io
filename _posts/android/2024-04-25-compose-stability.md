@@ -1,5 +1,5 @@
 ---
-title: Android Compose의 Stability를 통해 불필요한 Recompose 줄이기
+title: Android compose의 stability를 통해 불필요한 recomposition 줄이기
 author: jaepark
 date: 2024-04-25 11:04:00 +0900
 categories: [Android]
