@@ -1,0 +1,17 @@
+---
+title: Android compose single activity 도입 및 시행착오 공유
+author: jaepark
+date: 2024-08-04 10:38:00 +0900
+categories: [Android]
+tags: [compose, structure]
+pin: false
+img_path: '/assets/img'
+---
+reade reference before write post
+https://medium.com/@chethan.n/viewmodels-with-hilt-and-compose-navigation-c11923df1540
+https://developer.android.com/guide/navigation/backstack
+
+고민한 내용
+1. one screen one ViewModel?
+2. navigate 할때마다 증식하는 viewModel instance를 해결하라
+3. 다른 스크린에서 결괏값을 받아오는 방식 적립 (activity for result?)
